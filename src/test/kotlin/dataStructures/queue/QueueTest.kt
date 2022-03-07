@@ -7,8 +7,6 @@ import org.junit.jupiter.api.Test
 
 internal class QueueTest {
 
-
-
     @DisplayName("Should add an element at the the beginning of the queue")
     @Test
     fun enqueueMethodTest() {
