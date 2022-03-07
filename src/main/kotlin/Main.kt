@@ -1,4 +1,4 @@
-import linkedList.LinkedList
+import dataStructures.linkedList.LinkedList
 
 fun main() {
     val list = LinkedList<Int>()

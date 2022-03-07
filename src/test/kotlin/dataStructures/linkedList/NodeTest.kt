@@ -1,5 +1,6 @@
-package linkedList
+package dataStructures.linkedList
 
+import dataStructures.linkedList.Node
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
