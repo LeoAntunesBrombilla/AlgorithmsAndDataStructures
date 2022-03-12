@@ -31,24 +31,8 @@ class Graph: IGraph {
         edgeVertex2?.remove(vertex1)
     }
 
+    override fun toString(): String {
+        return "$adjVertices"
+    }
 }
 
-
-fun main() {
-    val graph = Graph()
-
-    graph.addVertex("Bob");
-    graph.addVertex("Alice");
-    graph.addVertex("Mark");
-    graph.addVertex("Rob");
-    graph.addVertex("Maria");
-    graph.addEdge("Bob", "Alice");
-    graph.addEdge("Bob", "Rob");
-    graph.addEdge("Alice", "Mark");
-    graph.addEdge("Rob", "Mark");
-    graph.addEdge("Alice", "Maria");
-    graph.addEdge("Rob", "Maria");
-
-    println(graph)
-
-}
